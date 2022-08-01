@@ -15,6 +15,11 @@ MAIL_ENCRYPTION=tls
 MAIL_FROM_ADDRESS=1812767@dlu.edu.vn
 MAIL_FROM_NAME="${APP_NAME}"
 ```
+- Chú ý bật tính năng sau của email
+
+![Container](a2.png)
+![Container](a1.png)
+
 ## 3:  Create Mail Class
 ```Dockerfile
 php artisan make:mail DemoMail
