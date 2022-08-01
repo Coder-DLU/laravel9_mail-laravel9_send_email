@@ -8,11 +8,11 @@ composer create-project laravel/laravel laravel9_mail_laravel9_send_email
 ```Dockerfile
 MAIL_MAILER=smtp
 MAIL_HOST=smtp.gmail.com
-MAIL_PORT=465
-MAIL_USERNAME=mygoogle@gmail.com
-MAIL_PASSWORD=rrnnucvnqlbsl
+MAIL_PORT=587
+MAIL_USERNAME=1812767@dlu.edu.vn
+MAIL_PASSWORD=Bichhien2612
 MAIL_ENCRYPTION=tls
-MAIL_FROM_ADDRESS=mygoogle@gmail.com
+MAIL_FROM_ADDRESS=1812767@dlu.edu.vn
 MAIL_FROM_NAME="${APP_NAME}"
 ```
 ## 3:  Create Mail Class
@@ -92,6 +92,7 @@ class MailController extends Controller
     }
 }
 ```
+- your_email@gmail.com là tài khoản emain để nhận email
 ## 5. Create Routes
 -  Vào routes/web.php
 ```Dockerfile
